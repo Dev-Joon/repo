@@ -17,6 +17,15 @@ public class _03_Variables {
 
         boolean pass = true;
         System.out.println("이번 시험에 합격했을까요? " + pass);
-        System.out.println("아니~");
+
+        double d = 3.14123456789;
+        float f = 3.14123456789f;
+
+        System.out.println(d);
+        System.out.println(f);
+
+        long l = 1000000000000L;
+        l = 1_000_000_000_000L;
+        System.out.println(l);
     }
 }
